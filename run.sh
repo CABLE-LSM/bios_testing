@@ -3,11 +3,10 @@
 #PBS -P tm70
 #PBS -q normal
 #PBS -l walltime=00:30:00
-#PBS -l ncpus=4
+#PBS -l ncpus=1
 #PBS -l mem=5GB
 #PBS -l storage=gdata/rp23
 #PBS -j oe
 
 ./setup.sh
-module load intel-mpi/2019.5.281
-mpiexec -n $PBS_NCPUS ./cable-mpi > logs/log_out_cable.txt
+./cable > logs/log_out_cable.txt
