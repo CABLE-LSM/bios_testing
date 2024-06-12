@@ -83,7 +83,7 @@
     cable_user%CASA_fromZero = .false.
     cable_user%RunIden = "bios"
     cable_user%YearStart = 1900
-    cable_user%YearEnd = 2022
+    cable_user%YearEnd = 1902
     cable_user%MetType = "bios"
     cable_user%CASA_OUT_FREQ = "monthly"
     cable_user%CLIMATE_fromZero = .false.
