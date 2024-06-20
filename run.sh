@@ -10,4 +10,4 @@
 
 ./setup.sh
 module load intel-mpi/2019.5.281
-mpiexec -n $PBS_NCPUS ./cable-mpi > logs/log_out_cable.txt
+mpiexec -n $PBS_NCPUS ./cable-mpi > logs/log_out_cable.txt 2>&1
