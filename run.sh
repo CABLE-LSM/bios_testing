@@ -9,4 +9,4 @@
 #PBS -j oe
 
 ./setup.sh
-./cable > logs/log_out_cable.txt
+./cable > logs/log_out_cable.txt 2>&1
