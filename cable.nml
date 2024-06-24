@@ -1,4 +1,4 @@
-&cable
+&cablenml
     filename%met = "bios"
     filename%path = "./"
     filename%type = "/g/data/rp23/data/no_provenance/gridinfo/gridinfo_CSIRO_CRU05x05_4tiles.nc"
@@ -6,7 +6,7 @@
     filename%soil = "input/def_soil_params.txt"
     filename%log = "logs/log_cable.txt"
     filename%out = "outputs/bios_out_cable.nc"
-    filename%restart_in = ""
+    filename%restart_in = "input/bios_cable_rst.nc"
     filename%restart_out = "restart/bios_cable_rst.nc"
     casafile%out = "outputs/bios_out_casa.nc"
     casafile%cnpipool = ""

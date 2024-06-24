@@ -6,5 +6,5 @@ INPUT=(
 
 # Use shell parameter expansion for runtime configurability - see
 # https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html:
-: "${EXE:=/home/189/sb8430/cable/offline/cable}"
-: "${RESTART:=/g/data/rp23/experiments/2024-04-17_BIOS3-merge/sb8430/bios_act9test/restart_1700_1899}"
+: "${EXE:=/home/189/sb8430/cable/bin/cable}"
+: "${RESTART:=/g/data/rp23/experiments/2024-04-17_BIOS3-merge/sb8430/bios_act9test_no_POPLUC/restart_1700_1899}"
